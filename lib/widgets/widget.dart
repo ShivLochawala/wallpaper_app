@@ -81,7 +81,10 @@ Widget WallpaperList({List<WallpaperModel> wallpapers, context}){
                           ),
                         ),
                       ),
-                      placeholder: (context, url) => CircularProgressIndicator(),
+                      placeholder: (context, url) => LinearProgressIndicator(
+                         valueColor: AlwaysStoppedAnimation<Color>(Colors.green[400]),
+                         backgroundColor: Colors.white
+                      ),
                       errorWidget: (context, url, error) => Icon(Icons.error),
                     )
                     :Container(),
