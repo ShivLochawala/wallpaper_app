@@ -25,7 +25,14 @@ class _SpleshScreenState extends State<SpleshScreen> {
     return Scaffold(
       body: Container(
         alignment: Alignment.center,
-        child: Row(
+        child: Image.asset('assets/images/logo.png')
+        
+        
+      ),
+    );
+  }
+}
+/*Row(
         mainAxisAlignment: MainAxisAlignment.center,
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
@@ -51,8 +58,4 @@ class _SpleshScreenState extends State<SpleshScreen> {
               ),
             )
           ],
-        ),
-      ),
-    );
-  }
-}
+        ),*/

@@ -166,7 +166,6 @@ class CategoriesTile extends StatelessWidget {
       child: Stack(
         children: <Widget>[
           ClipRRect(
-            borderRadius: BorderRadius.circular(8),
             child: Image.network(imageUrl, 
               height: 50, 
               width: 100,
